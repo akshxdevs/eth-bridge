@@ -1,6 +1,6 @@
+"use client";
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { WagmiProvider, useAccount, useConnect, useConnectors, useDisconnect, useReadContract } from 'wagmi'
-import './App.css'
 import { Address } from 'viem';
 import { config } from './wagmi/config';
 import { AllowUSDT } from './Components/AllowUSDT';
